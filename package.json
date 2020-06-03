@@ -1,6 +1,6 @@
 {
   "name": "projectprofile",
-  "homepage": "https://kudosGan.github.io/projectprofile",
+  "homepage": "https://kudosgan.github.io/projectprofile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,9 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-   "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,7 +33,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-     ]
+    ]
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
